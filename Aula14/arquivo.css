@@ -1,0 +1,90 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(86, 86, 86);
+  color: #fff;
+}
+
+.menu {
+  
+  width: 150px;
+  border-radius: 6px;
+}
+
+.minhaPagina {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 100px;
+  color: aqua;
+}
+
+.header {
+  width: 100%;
+  background-color: blueviolet;
+}
+
+.div-menu {
+  width: 500px;
+  height: 500px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (min-width: 55rem) {
+    .minhaPagina {
+      margin-left: 350px;
+      color: bisque;
+    }
+
+    .header {
+      margin-left: 12px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+  .minhaPagina {
+      color: red;
+    }
+
+    .header {
+      margin-left: 16px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+  .minhaPagina {
+    color: green;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .minhaPagina {
+    color: yellow;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .minhaPagina {
+    color: blue;
+  }
+
+  .header {
+    margin-left: 62px;
+  }
+}
